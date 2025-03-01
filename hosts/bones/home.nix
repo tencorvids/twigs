@@ -18,6 +18,7 @@
     lazygit
     neovim
     ripgrep
+    starship
     tmux
   ];
 
@@ -26,11 +27,15 @@
   };
 
   home.file = {
-    ".config/ghostty/config".source = ../../config/ghostty/config;
-    ".config/nvim".source = ../../config/nvim;
+    ".zshrc".source = ../../config/zsh/.zshrc;
     ".tmux.conf".source = ../../config/tmux/.tmux.conf;
+    ".config/ghostty/config".source = ../../config/ghostty/config;
+    ".config/ghostty/themes/yugen".source = ../../config/ghostty/themes/yugen;
+    ".config/nvim".source = ../../config/nvim;
+    ".config/starship.toml".source = ../../config/starship/starship.toml;
   };
 
   programs.zsh.enable = true;
+  programs.bash.enable = false;
   programs.home-manager.enable = true;
 }

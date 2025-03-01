@@ -3,7 +3,7 @@
 }:
 
 pkgs.mkShell {
-  name = "Twigs development shell";
+  name = "twigs development shell";
 
   buildInputs = with pkgs; [
     nixd
@@ -13,6 +13,6 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    echo "Twigs development environment loaded."
+    echo "twigs development environment loaded."
   '';
 }

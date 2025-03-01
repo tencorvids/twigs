@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ inputs, pkgs, ... }:
 {
   imports = [
     inputs.home-manager.darwinModules.default
@@ -11,6 +11,7 @@
 
   networking.hostName = "bones";
   users.users.rew.home = "/Users/rew";
+  users.users.rew.shell = pkgs.zsh;
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;

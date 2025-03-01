@@ -1,5 +1,5 @@
 # Ghostty theme
-theme = ayu
+theme = yugen
 
 # Shell integrations
 shell-integration = zsh
