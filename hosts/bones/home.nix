@@ -17,10 +17,13 @@
     jq
     lazygit
     neovim
+    nerd-fonts.geist-mono
     ripgrep
     starship
     tmux
   ];
+
+  fonts.fontconfig.enable = true;
 
   home.sessionVariables = {
     EDITOR = "nvim";

@@ -26,3 +26,8 @@ setopt SHARE_HISTORY
 unsetopt EXTENDED_HISTORY
 
 alias vim='nvim'
+
+alias nix-shell='nix-shell --run $SHELL'
+nix() {
+    command nix "$@"
+}

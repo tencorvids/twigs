@@ -6,7 +6,7 @@ shell-integration = zsh
 quit-after-last-window-closed = true
 
 # Font family
-# font-family = MonoLisa
+font-family = Geist
 font-style = Regular
 font-style-italic = Regular Italic
 font-style-bold = Bold
