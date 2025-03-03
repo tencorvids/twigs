@@ -39,11 +39,13 @@ return {
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
 			-- LSP server configurations
-			-- Add or modify server configurations here
 			local servers = {
 				lua_ls = {},
 				nixd = {},
 				gopls = {},
+				tsls = {},
+				tailwindcss = {},
+				emmet_language_server = {},
 			}
 
 			local lspconfig = require("lspconfig")
@@ -70,6 +72,7 @@ return {
 				lua = { "stylua" },
 				nix = { "nixfmt-rfc-style" },
 				go = { "gofmt" },
+				typescript = { "prettier" },
 			},
 		},
 	},
