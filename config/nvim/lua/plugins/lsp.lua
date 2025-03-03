@@ -43,7 +43,7 @@ return {
 				lua_ls = {},
 				nixd = {},
 				gopls = {},
-				tsls = {},
+				ts_ls = {},
 				tailwindcss = {},
 				emmet_language_server = {},
 			}
