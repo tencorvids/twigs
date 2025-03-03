@@ -53,6 +53,6 @@ return {
         { "gI", function() Snacks.picker.lsp_implementations() end, desc = "Goto Implementation" },
         { "gy", function() Snacks.picker.lsp_type_definitions() end, desc = "Goto T[y]pe Definition" },
         -- misc
-        { "<leader>uD", function() Snacks.toggle.dim():map("<leader>uD") end },
+        { "<leader>uD", function() Snacks.toggle.dim():map("<leader>uD") end, desc = "Toggle Dim Focus" },
     },
 }
