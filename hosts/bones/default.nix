@@ -52,6 +52,7 @@
     brews = [ ];
     casks = [
       "discord"
+      "docker"
       "ghostty"
       "obsidian"
       "raycast"
