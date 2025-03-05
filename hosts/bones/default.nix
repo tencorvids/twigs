@@ -53,6 +53,7 @@
     casks = [
       "discord"
       "docker"
+      "figma"
       "ghostty"
       "obsidian"
       "raycast"
