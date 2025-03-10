@@ -44,6 +44,7 @@ return {
 				nixd = {},
 				gopls = {},
 				ts_ls = {},
+				astro = {},
 				tailwindcss = {},
 				emmet_language_server = {},
 			}
