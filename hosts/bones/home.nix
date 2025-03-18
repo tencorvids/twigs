@@ -41,4 +41,5 @@
   programs.zsh.enable = true;
   programs.bash.enable = false;
   programs.home-manager.enable = true;
+  programs.tailscale.enable = true;
 }

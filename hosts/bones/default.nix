@@ -51,7 +51,7 @@
     };
     brews = [ ];
     casks = [
-      "brave"
+      "brave-browser"
       "discord"
       "docker"
       "figma"
