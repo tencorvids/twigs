@@ -20,6 +20,7 @@
     nerd-fonts.geist-mono
     ripgrep
     starship
+    tailscale
     tmux
   ];
 
@@ -41,5 +42,4 @@
   programs.zsh.enable = true;
   programs.bash.enable = false;
   programs.home-manager.enable = true;
-  programs.tailscale.enable = true;
 }
