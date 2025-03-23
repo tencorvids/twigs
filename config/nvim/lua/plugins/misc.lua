@@ -57,7 +57,6 @@ return {
 
 		vim.keymap.set("n", "<LEADER>;", "<CMD>Oil<CR>", { desc = "Trigger Oil" }),
 	},
-
 	-- AI
 	{
 		"supermaven-inc/supermaven-nvim",

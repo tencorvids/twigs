@@ -88,7 +88,7 @@ return {
 				lua = { "stylua" },
 				nix = { "nixfmt-rfc-style" },
 				go = { "gofmt" },
-				typescript = { "prettier" },
+				typescript = { "biome" },
 			},
 		},
 	},
