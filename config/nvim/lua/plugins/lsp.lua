@@ -84,6 +84,11 @@ return {
 				lsp_fallback = true,
 				lsp_format = "fallback",
 			},
+        formatters = {
+          biome = {
+            require_cwd = true
+            },
+        },
 			formatters_by_ft = {
 				lua = { "stylua" },
 				nix = { "nixfmt-rfc-style" },
@@ -123,7 +128,6 @@ return {
 					{ name = "nvim_lsp" },
 					{ name = "path" },
 					{ name = "buffer" },
-					{ name = "supermaven" },
 				},
 			})
 		end,

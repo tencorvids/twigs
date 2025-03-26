@@ -57,6 +57,7 @@
       "docker"
       "figma"
       "ghostty"
+      "linear-linear"
       "obsidian"
       "raycast"
       "spotify"
