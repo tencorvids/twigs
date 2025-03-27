@@ -84,16 +84,11 @@ return {
 				lsp_fallback = true,
 				lsp_format = "fallback",
 			},
-        formatters = {
-          biome = {
-            require_cwd = true
-            },
-        },
 			formatters_by_ft = {
 				lua = { "stylua" },
 				nix = { "nixfmt-rfc-style" },
 				go = { "gofmt" },
-				typescript = { "biome" },
+				typescript = { "prettier" },
 			},
 		},
 	},
