@@ -10,6 +10,7 @@
   home.packages = with pkgs; [
     aerospace
     alejandra
+    awscli2
     bat
     btop
     fd
