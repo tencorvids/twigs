@@ -62,7 +62,6 @@
       "raycast"
       "spotify"
       "tableplus"
-      "visual-studio-code"
       "zen-browser"
     ];
     taps = [
