@@ -10,7 +10,6 @@
   home.packages = with pkgs; [
     aerospace
     alejandra
-    awscli2
     bat
     btop
     fd
@@ -21,7 +20,6 @@
     nerd-fonts.geist-mono
     ripgrep
     starship
-    tailscale
     tmux
   ];
 

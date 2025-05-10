@@ -1,11 +1,4 @@
 return {
-	-- Theme
-	{
-		"bettervim/yugen.nvim",
-		config = function()
-			vim.cmd.colorscheme("yugen")
-		end,
-	},
 	-- Comment
 	{
 		"numToStr/Comment.nvim",
