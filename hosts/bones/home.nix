@@ -18,6 +18,7 @@
     lazygit
     neovim
     nerd-fonts.geist-mono
+    nodejs_22
     ripgrep
     starship
     tmux
