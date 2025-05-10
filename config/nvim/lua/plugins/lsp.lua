@@ -1,5 +1,4 @@
 return {
-	-- Treesitter
 	{
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
@@ -15,7 +14,6 @@ return {
 			})
 		end,
 	},
-	-- LSP config
 	{
 		"neovim/nvim-lspconfig",
 		dependencies = {
@@ -54,7 +52,6 @@ return {
 			local capabilities = vim.lsp.protocol.make_client_capabilities()
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
-			-- LSP server configurations
 			local servers = {
 				lua_ls = {},
 				nixd = {},
@@ -74,7 +71,6 @@ return {
 			end
 		end,
 	},
-	-- Autoformat
 	{
 		"stevearc/conform.nvim",
 		opts = {
@@ -92,7 +88,6 @@ return {
 			},
 		},
 	},
-	-- Autocompletion
 	{
 		"hrsh7th/nvim-cmp",
 		event = "InsertEnter",

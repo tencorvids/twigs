@@ -1,17 +1,14 @@
 return {
-	-- Comment
 	{
 		"numToStr/Comment.nvim",
 		enabled = true,
 		opts = {},
 	},
-	-- Discord rich presence
 	{
 		"vyfor/cord.nvim",
 		build = ":Cord update",
 		opts = {},
 	},
-	-- Diagnostics
 	{
 		"folke/trouble.nvim",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -35,7 +32,6 @@ return {
         }
 ,
 	},
-	-- Edit file system like a buffer
 	{
 		"stevearc/oil.nvim",
 		opts = {},
@@ -50,7 +46,6 @@ return {
 
 		vim.keymap.set("n", "<LEADER>;", "<CMD>Oil<CR>", { desc = "Trigger Oil" }),
 	},
-	-- Markdown viewers
 	{
 		"MeanderingProgrammer/render-markdown.nvim",
 		dependencies = { "nvim-treesitter/nvim-treesitter" },

@@ -1,4 +1,3 @@
--- Mini plugins
 return {
 	"echasnovski/mini.nvim",
 	config = function()
@@ -18,10 +17,8 @@ return {
 		-- - sr)'  - [S]urround [R]eplace [)] [']
 		require("mini.surround").setup()
 
-		-- Create pairs of brackets, quotes, etc.
 		require("mini.pairs").setup()
 
-		-- Set Base16 colorscheme
 		require("mini.base16").setup({
 			palette = {
 				base00 = "#000000",
