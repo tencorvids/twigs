@@ -13,6 +13,7 @@ return {
 		version = false,
 		opts = {
 			provider = "copilot",
+			hints = { enabled = false },
 		},
 		build = "make",
 		dependencies = {
