@@ -45,12 +45,5 @@ return {
 		end,
 
 		vim.keymap.set("n", "<LEADER>;", "<CMD>Oil<CR>", { desc = "Trigger Oil" }),
-	},
-	{
-		"MeanderingProgrammer/render-markdown.nvim",
-		dependencies = { "nvim-treesitter/nvim-treesitter" },
-		---@module 'render-markdown'
-		---@type render.md.UserConfig
-		opts = {},
-	},
+	}
 }
