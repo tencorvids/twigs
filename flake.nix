@@ -30,4 +30,4 @@
     };
 }
 
- # git add . && nix run nix-darwin -- switch --flake .#bones
+# git add . && sudo nix run nix-darwin -- switch --flake .#bones

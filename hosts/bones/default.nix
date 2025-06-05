@@ -51,6 +51,7 @@
     };
     brews = [ ];
     casks = [
+      "balenaetcher"
       "bambu-studio"
       "brave-browser"
       "discord"
