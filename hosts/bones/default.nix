@@ -49,16 +49,17 @@
       autoUpdate = false;
       upgrade = false;
     };
+    taps = [ ];
     brews = [ ];
     casks = [
-      "balenaetcher"
+      "alcove"
       "bambu-studio"
       "brave-browser"
+      "cursor"
       "discord"
       "docker"
       "figma"
       "ghostty"
-      "linear-linear"
       "obsidian"
       "raycast"
       "spotify"
@@ -69,6 +70,7 @@
 
   system = {
     stateVersion = 5;
+    primaryUser = "rew";
   };
 
   nixpkgs.hostPlatform = "aarch64-darwin";
