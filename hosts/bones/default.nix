@@ -64,6 +64,7 @@
       "obsidian"
       "raycast"
       "raspberry-pi-imager"
+      "runelite"
       "spotify"
       "tableplus"
       "zen-browser"
