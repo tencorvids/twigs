@@ -25,9 +25,12 @@ unsetopt HIST_EXPIRE_DUPS_FIRST
 setopt SHARE_HISTORY
 unsetopt EXTENDED_HISTORY
 
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+
 alias vim='nvim'
 
 alias nix-shell='nix-shell --run $SHELL'
 nix() {
     command nix "$@"
 }
+
