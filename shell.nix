@@ -8,8 +8,6 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     nixd
     nixfmt-rfc-style
-    lua-language-server
-    stylua
   ];
 
   shellHook = ''
