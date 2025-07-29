@@ -25,9 +25,13 @@ unsetopt HIST_EXPIRE_DUPS_FIRST
 setopt SHARE_HISTORY
 unsetopt EXTENDED_HISTORY
 
-alias vim='nvim'
+alias cat="bat"
+alias ls="eza --icons -a --group-directories-first -1"
+alias ll="eza --icons -a --group-directories-first -1 --no-user --long"
+alias tree="eza --icons --tree --group-directories-first"
+alias vim="nvim"
 
-alias nix-shell='nix-shell --run $SHELL'
+alias nix-shell="nix-shell --run $SHELL"
 nix() {
     command nix "$@"
 }
