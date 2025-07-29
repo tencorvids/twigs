@@ -18,6 +18,6 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/git.nix
     ../../module/starship.nix
     ../../module/shell.nix
-    # ../../module/neovim.nix
+    ../../module/neovim.nix
   ];
 }
