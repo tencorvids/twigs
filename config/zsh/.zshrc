@@ -27,7 +27,7 @@ unsetopt EXTENDED_HISTORY
 
 alias vim='nvim'
 
-# alias nix-shell='nix-shell --run $SHELL'
-# nix() {
-#     command nix "$@"
-# }
+alias nix-shell='nix-shell --run $SHELL'
+nix() {
+    command nix "$@"
+}
