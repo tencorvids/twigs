@@ -16,5 +16,7 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/nix.nix
     ../../module/packages.nix
     ../../module/git.nix
+    ../../module/starship.nix
+    ../../module/shell.nix
   ];
 }
