@@ -6,8 +6,8 @@
     shell = pkgs.zsh;
   };
 
-  home-manager.users.${config.user} = {
-    home.file = {
+  home-manager.users.${config.user}.home = {
+    file = {
       ".zshrc".source = ../config/zsh/.zshrc;
     };
   };
