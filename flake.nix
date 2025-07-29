@@ -31,3 +31,5 @@
       };
     };
 }
+
+# git add . && sudo darwin-rebuild switch --flake .#bones

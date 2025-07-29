@@ -1,4 +1,4 @@
-theme = funeral
+theme = aero
 
 shell-integration = zsh
 quit-after-last-window-closed = true

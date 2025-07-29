@@ -19,25 +19,25 @@ return {
 
 		require("mini.pairs").setup()
 
-		require("mini.base16").setup({
-			palette = {
-				base00 = "#000000",
-				base01 = "#000000",
-				base02 = "#464646",
-				base03 = "#525252",
-				base04 = "#ABABAB",
-				base05 = "#B9B9B9",
-				base06 = "#E3E3E3",
-				base07 = "#FFFFFF",
-				base08 = "#7C7C7C",
-				base09 = "#999999",
-				base0A = "#A0A0A0",
-				base0B = "#FFBE89",
-				base0C = "#868686",
-				base0D = "#686868",
-				base0E = "#747474",
-				base0F = "#5E5E5E",
-			},
-		})
+        require("mini.base16").setup({
+            palette = {
+                base00 = "#000000",
+                base01 = "#000000", 
+                base02 = "#222222", 
+                base03 = "#333333", 
+                base04 = "#999999", 
+                base05 = "#c1c1c1", 
+                base06 = "#999999", 
+                base07 = "#c1c1c1", 
+                base08 = "#b26c4d", 
+                base09 = "#aaaaaa", 
+                base0A = "#ff4f00", 
+                base0B = "#e5c2b3", 
+                base0C = "#aaaaaa", 
+                base0D = "#888888", 
+                base0E = "#999999", 
+                base0F = "#444444",
+            },
+        })
 	end,
 }
