@@ -20,5 +20,6 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/shell.nix
     ../../module/neovim.nix
     ../../module/tmux.nix
+    ../../module/ghostty.nix
   ];
 }
