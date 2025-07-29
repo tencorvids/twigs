@@ -11,8 +11,10 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/darwin/touch.nix
     ../../module/darwin/user.nix
 
-    {
-      home-manager.users.${globals.user}.imports = [ ];
-    }
+    # modules
+    ../../module/git.nix
+    ../../module/home.nix
+    ../../module/nix.nix
+    ../../module/packages.nix
   ];
 }
