@@ -8,9 +8,11 @@ return {
             configs.setup({
                 ensure_installed = { "c", "lua", "vim", "vimdoc" },
                 sync_install = false,
+                ignore_install = {},
                 highlight = { enable = true },
                 indent = { enable = true },
                 auto_install = true,
+                modules = {},
             })
         end,
     },
