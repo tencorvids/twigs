@@ -7,6 +7,7 @@
       fd
       fzf
       jq
+      lazydocker
       lazygit
       ripgrep
     ];
