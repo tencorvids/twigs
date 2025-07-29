@@ -11,17 +11,18 @@
 
   homebrew = {
     enable = true;
-    onActivation = {
-      autoUpdate = true;
-      cleanup = "zap";
-      upgrade = true;
-    };
+    # onActivation = {
+    #   autoUpdate = true;
+    #   cleanup = "zap";
+    #   upgrade = true;
+    # };
 
     casks = [
       "alcove"
       "bambu-studio"
       "cursor"
       "discord"
+      "docker"
       "figma"
       "ghostty"
       "obsidian"
