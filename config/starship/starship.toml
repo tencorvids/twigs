@@ -3,6 +3,7 @@
 format = """
 $username\
 $hostname\
+$nix_shell\
 $directory\
 $git_branch\
 $git_state\
