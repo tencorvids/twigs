@@ -6,7 +6,7 @@
     ];
 
     home.file = {
-      ".config/starship.toml".text = builtins.readFile ../config/starship/starship.toml;
+      ".config/starship.toml".source = ../config/starship/starship.toml;
     };
   };
 }

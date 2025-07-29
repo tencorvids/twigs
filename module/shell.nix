@@ -7,10 +7,6 @@
   };
 
   home-manager.users.${config.user} = {
-    home.packages = with pkgs; [
-      starship
-    ];
-
     home.file = {
       ".zshrc".source = ../config/zsh/.zshrc;
     };
