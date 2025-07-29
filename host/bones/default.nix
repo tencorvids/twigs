@@ -19,5 +19,6 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/starship.nix
     ../../module/shell.nix
     ../../module/neovim.nix
+    ../../module/tmux.nix
   ];
 }

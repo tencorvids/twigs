@@ -4,8 +4,6 @@
     home.packages = with pkgs; [
       lazygit
       ripgrep
-      neovim
-      tmux
     ];
   };
 }
