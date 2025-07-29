@@ -15,10 +15,6 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/home.nix
     ../../module/nix.nix
     ../../module/packages.nix
-    {
-      home-manager.users.${globals.user}.imports = [
-        ../../module/git.nix
-      ];
-    }
+    ../../module/git.nix
   ];
 }

@@ -1,9 +1,11 @@
-{ ... }:
+{ config, lib, pkgs, ... }:
 {
-  programs.git = {
-    enable = true;
-    userName = "rew";
-    userEmail = "rew@tencorvids.com";
-    extraConfig.init.defaultBranch = "main";
+  home-manager.users.${config.user.name} = {
+    programs.git = {
+      enable = true;
+      userName = "rew";
+      userEmail = "rew@tencorvids.com";
+      extraConfig.init.defaultBranch = "main";
+    };
   };
 }
