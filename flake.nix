@@ -23,7 +23,7 @@
     in
     rec {
       darwinConfigurations = {
-        bones = import ./hosts/bones { inherit inputs globals; };
+        bones = import ./host/bones { inherit inputs globals; };
       };
 
       homeConfigurations = {
