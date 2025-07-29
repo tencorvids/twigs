@@ -12,14 +12,14 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/darwin/user.nix
 
     # modules
+    ../../module/ghostty.nix
+    ../../module/git.nix
     ../../module/home.nix
+    ../../module/neovim.nix
     ../../module/nix.nix
     ../../module/packages.nix
-    ../../module/git.nix
-    ../../module/starship.nix
     ../../module/shell.nix
-    ../../module/neovim.nix
+    ../../module/starship.nix
     ../../module/tmux.nix
-    ../../module/ghostty.nix
   ];
 }
