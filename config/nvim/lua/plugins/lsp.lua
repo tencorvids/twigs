@@ -53,14 +53,11 @@ return {
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
 			local servers = {
-				clangd = {},
-                cmake = {},
+                clangd = {},
 				lua_ls = {},
 				nixd = {},
 				gopls = {},
-				rust_analyzer = {},
 				ts_ls = {},
-				astro = {},
 				tailwindcss = {},
 				emmet_language_server = {},
 			}
@@ -88,7 +85,6 @@ return {
 				nix = { "nixfmt-rfc-style" },
 				go = { "gofmt" },
 				typescript = { "prettier" },
-				rust = { "rustfmt" },
 			},
 		},
 	},
