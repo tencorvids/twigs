@@ -10,6 +10,7 @@
       lazydocker
       lazygit
       ripgrep
+      opencode
     ];
   };
 }
