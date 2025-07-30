@@ -30,6 +30,8 @@ alias ls="eza --icons -a --group-directories-first -1"
 alias ll="eza --icons -a --group-directories-first -1 --no-user --long"
 alias tree="eza --icons --tree --group-directories-first"
 alias vim="nvim"
+alias grep="rg"
+alias find="fd"
 
 alias nix-shell="nix-shell --run $SHELL"
 nix() {
