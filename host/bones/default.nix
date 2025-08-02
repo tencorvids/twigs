@@ -12,6 +12,7 @@ inputs.nix-darwin.lib.darwinSystem {
     ../../module/darwin/user.nix
 
     # modules
+    ../../module/fonts.nix
     ../../module/ghostty.nix
     ../../module/git.nix
     ../../module/home.nix
