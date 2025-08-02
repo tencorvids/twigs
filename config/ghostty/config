@@ -3,7 +3,7 @@ theme = aero
 shell-integration = zsh
 quit-after-last-window-closed = true
 
-font-family = Geist
+font-family = GeistMono NFM
 font-style = Regular
 font-style-italic = Regular Italic
 font-style-bold = Bold
