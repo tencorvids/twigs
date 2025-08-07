@@ -20,6 +20,7 @@
     casks = [
       "alcove"
       "arduino-ide"
+      "brave-browser"
       "bambu-studio"
       "cursor"
       "discord"
