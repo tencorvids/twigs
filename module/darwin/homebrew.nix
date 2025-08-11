@@ -22,7 +22,6 @@
       "arduino-ide"
       "brave-browser"
       "bambu-studio"
-      "cursor"
       "discord"
       "docker"
       "figma"
