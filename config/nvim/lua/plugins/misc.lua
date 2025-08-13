@@ -65,7 +65,6 @@ return {
         ---@module 'obsidian'
         ---@type obsidian.config
         opts = {
-            legacy_commands = false,
             workspaces = {
                 {
                     name = "tome",
@@ -77,7 +76,9 @@ return {
             },
             ui = {
                 enable = false
-            }
+            },
+            legacy_commands = false,
+            disable_frontmatter = true,
         },
 
         vim.keymap.set("n", "<LEADER>oToggle trouble listo", "<CMD>Obsidian open<CR>",
