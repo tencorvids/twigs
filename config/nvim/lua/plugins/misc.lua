@@ -56,5 +56,21 @@ return {
         end,
 
         vim.keymap.set("n", "<LEADER>;", "<CMD>Oil<CR>", { desc = "Trigger Oil" }),
+    },
+    {
+        "obsidian-nvim/obsidian.nvim",
+        version = "*", -- recommended, use latest release instead of latest commit
+        lazy = true,
+        ft = "markdown",
+        ---@module 'obsidian'
+        ---@type obsidian.config
+        opts = {
+            workspaces = {
+                {
+                    name = "tome",
+                    path = "~/Documents/tome",
+                },
+            },
+        },
     }
 }
