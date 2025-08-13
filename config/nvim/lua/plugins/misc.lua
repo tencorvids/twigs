@@ -72,12 +72,15 @@ return {
                     path = "~/Documents/tome",
                 },
             },
-            daily_notes = {
-                folder = "~/Documents/tome/Daily",
-            },
             picker = {
                 name = "snacks.pick"
+            },
+            ui = {
+                enable = false
             }
         },
+
+        vim.keymap.set("n", "<LEADER>oToggle trouble listo", "<CMD>Obsidian open<CR>",
+            { desc = "Open current file in Obsidian" }),
     }
 }
