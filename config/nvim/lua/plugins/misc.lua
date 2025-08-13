@@ -71,6 +71,7 @@ return {
                     path = "~/Documents/tome",
                 },
             },
+            templates = { folder = "_/Templates" },
             picker = { name = "snacks.pick" },
             footer = { enabled = false },
             ui = { enable = false },
@@ -78,7 +79,6 @@ return {
             disable_frontmatter = true,
         },
 
-        vim.keymap.set("n", "<LEADER>oToggle trouble listo", "<CMD>Obsidian open<CR>",
-            { desc = "Open current file in Obsidian" }),
+        vim.keymap.set("n", "<LEADER>oo", "<CMD>Obsidian open<CR>", { desc = "Open current file in Obsidian" }),
     }
 }
