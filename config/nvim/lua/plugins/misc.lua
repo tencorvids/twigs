@@ -65,12 +65,19 @@ return {
         ---@module 'obsidian'
         ---@type obsidian.config
         opts = {
+            legacy_commands = false,
             workspaces = {
                 {
                     name = "tome",
                     path = "~/Documents/tome",
                 },
             },
+            daily_notes = {
+                folder = "~/Documents/tome/Daily",
+            },
+            picker = {
+                name = "snacks.pick"
+            }
         },
     }
 }
