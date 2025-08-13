@@ -71,12 +71,9 @@ return {
                     path = "~/Documents/tome",
                 },
             },
-            picker = {
-                name = "snacks.pick"
-            },
-            ui = {
-                enable = false
-            },
+            picker = { name = "snacks.pick" },
+            footer = { enabled = false },
+            ui = { enable = false },
             legacy_commands = false,
             disable_frontmatter = true,
         },
