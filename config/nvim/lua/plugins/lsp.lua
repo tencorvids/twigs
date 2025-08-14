@@ -55,6 +55,7 @@ return {
             capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
             local servers = {
+                biome = {},
                 clangd = {},
                 lua_ls = {
                     settings = {
@@ -103,7 +104,7 @@ return {
                 lua = { "stylua" },
                 nix = { "nixfmt-rfc-style" },
                 go = { "gofmt" },
-                typescript = { "prettier" },
+                -- typescript = { "prettier" },
             },
         },
     },
