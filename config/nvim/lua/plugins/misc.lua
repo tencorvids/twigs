@@ -73,6 +73,7 @@ return {
             },
             templates = { folder = "_/Templates" },
             picker = { name = "snacks.pick" },
+            daily_notes = { enabled = false },
             footer = { enabled = false },
             ui = { enable = false },
             legacy_commands = false,
