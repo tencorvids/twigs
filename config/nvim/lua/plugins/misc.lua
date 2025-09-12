@@ -56,30 +56,5 @@ return {
         end,
 
         vim.keymap.set("n", "<LEADER>;", "<CMD>Oil<CR>", { desc = "Trigger Oil" }),
-    },
-    {
-        "obsidian-nvim/obsidian.nvim",
-        version = "*", -- recommended, use latest release instead of latest commit
-        lazy = true,
-        ft = "markdown",
-        ---@module 'obsidian'
-        ---@type obsidian.config
-        opts = {
-            workspaces = {
-                {
-                    name = "tome",
-                    path = "~/Documents/tome",
-                },
-            },
-            templates = { folder = "_/Templates" },
-            picker = { name = "snacks.pick" },
-            daily_notes = { enabled = false },
-            footer = { enabled = false },
-            ui = { enable = false },
-            legacy_commands = false,
-            disable_frontmatter = true,
-        },
-
-        vim.keymap.set("n", "<LEADER>oo", "<CMD>Obsidian open<CR>", { desc = "Open current file in Obsidian" }),
     }
 }
