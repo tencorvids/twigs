@@ -25,7 +25,6 @@
       "discord"
       "docker"
       "epic-games"
-      "figma"
       "ghostty"
       "obsidian"
       "raycast"
