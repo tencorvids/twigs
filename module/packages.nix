@@ -9,9 +9,8 @@
       jq
       lazydocker
       lazygit
-      pandoc
-      ripgrep
       opencode
+      ripgrep
     ];
   };
 }
