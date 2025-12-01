@@ -22,6 +22,7 @@
       "arduino-ide"
       "brave-browser"
       "bambu-studio"
+      "caffeine"
       "discord"
       "docker"
       "epic-games"
