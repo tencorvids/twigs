@@ -28,6 +28,7 @@
       "epic-games"
       "figma"
       "ghostty"
+      "google-chrome"
       "obs"
       "obsidian"
       "raycast"

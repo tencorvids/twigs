@@ -71,15 +71,16 @@ return {
                 ts_ls = {},
                 tailwindcss = {},
                 emmet_language_server = {},
-                basedpyright = {
-                    settings = {
-                        basedpyright = {
-                            analysis = {
-                                typeCheckingMode = "basic",
-                            },
-                        },
-                    },
-                },
+                -- basedpyright = {
+                --     settings = {
+                --         basedpyright = {
+                --             analysis = {
+                --                 typeCheckingMode = "basic",
+                --             },
+                --         },
+                --     },
+                -- },
+                ruff = {},
             }
 
             local lspconfig = require("lspconfig")
